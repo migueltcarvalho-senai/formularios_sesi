@@ -15,19 +15,19 @@
         <fieldset id="dados">
             <legend>Dados pessoais</legend>
             <p>Nome:</p>
-            <input type="text" class="primeira">
+            <input type="text" class="input-dados">
             <p>Idade:</p>
-            <input type="number" class="primeira">
+            <input type="number" class="input-dados">
             <p>Telefone:</p>
-            <input type="tel" class="primeira">
+            <input type="tel" class="input-dados">
             <p>Endereço:</p>
-            <input type="text" class="primeira">
+            <input type="text" class="input-dados">
             <p>Planeta de Origem</p>
-            <select class="segunda">
-                <option>Planeta Terra</option>
-                <option>Planeta Namek</option>
-                <option>Planeta Vegeta</option>
-                <option>Outro</option>
+            <select class="select-planetas">
+                <option class="options">Planeta Terra</option>
+                <option class="options">Planeta Namek</option>
+                <option class="options">Planeta Vegeta</option>
+                <option class="options">Outro</option>
             </select>
         </fieldset>
         <br>
@@ -43,13 +43,13 @@
             </select>
             <br><br>
             <label for="trabalho">Trabalho: </label>
-            <input name="auto" type="radio">
+            <input name="1" name="auto" type="radio">
             <label for="auto">Autonômo</label>
-            <input name="empre" type="radio">
+            <input name="1" name="empre 1" type="radio">
             <label for="empre">Empregado CLT</label>
-            <input name="empresario" type="radio">
+            <input name="1" name="empresario 1" type="radio">
             <label for="empresario">Empresário</label>
-            <input name="tipo" type="radio">
+            <input name="1" name="tipo 1" type="radio">
             <label for="tipo">Tipo Goku</label>
         </fieldset>
         <br>
@@ -73,25 +73,26 @@
         <br>
         <fieldset>
             <legend>Qual é o Tamanho Preferido</legend>
-            <input name="500" type="radio">
+            <input name="2" name="500" type="radio">
             <label for="500">500ML</label>
 
-            <input name="300" type="radio">
+            <input name="2" name="300" type="radio">
             <label for="300">300ML</label>
 
-            <input name="100" type="radio">
+            <input name="2" name="100" type="radio">
             <label for="100">100ML</label>
 
-            <input name="casca" type="radio">
+            <input name="2" name="casca" type="radio">
             <label for="casca">Casquinha</label>
 
-            <input name="qual" type="radio">
+            <input name="2" name="qual" type="radio">
             <label for="qual">Qual Parte do Gosto de Terra Voce Não Entendeu</label>
         </fieldset>
         <br>
         <fieldset>
             <p>Observações:</p>
-            <textarea id="text" rows="8" cols="180" placeholder="Escreva suas observações...Eu gosto do açaí..."></textarea>
+            <textarea id="text" rows="8" cols="180"
+                placeholder="Escreva suas observações...Eu gosto do açaí..."></textarea>
         </fieldset>
         <br>
         <input type="submit" value="Enviar" class="but">
