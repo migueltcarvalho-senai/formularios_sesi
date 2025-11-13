@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/prova_pratica/css/estilo.css">
+</head>
+
+<body>
+    <h2 id="form">FORMULARIO SUPERAÇAIAJIN</h2>
+    <br>
+    <form>
+        <fieldset id="dados">
+            <legend>Dados pessoais</legend>
+            <p>Nome:</p>
+            <input type="text" class="primeira">
+            <p>Idade:</p>
+            <input type="number" class="primeira">
+            <p>Telefone:</p>
+            <input type="tel" class="primeira">
+            <p>Endereço:</p>
+            <input type="text" class="primeira">
+            <p>Planeta de Origem</p>
+            <select class="segunda">
+                <option>Planeta Terra</option>
+                <option>Planeta Namek</option>
+                <option>Planeta Vegeta</option>
+                <option>Outro</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Dados extras: </legend>
+            <label for="raca">Raça do Universo 7 Preferida: </label>
+            <select name="raca" id="raca">
+                <option>Terráqueo</option>
+                <option>Sayajin</option>
+                <option>Namekusejin</option>
+                <option>Androide</option>
+                <option>Outros</option>
+            </select>
+            <br><br>
+            <label for="trabalho">Trabalho: </label>
+            <input name="auto" type="radio">
+            <label for="auto">Autonômo</label>
+            <input name="empre" type="radio">
+            <label for="empre">Empregado CLT</label>
+            <input name="empresario" type="radio">
+            <label for="empresario">Empresário</label>
+            <input name="tipo" type="radio">
+            <label for="tipo">Tipo Goku</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Seu Açai Preferido é De Que?</legend>
+            <input type="checkbox" name="puro">
+            <label for="puro">Puro</label>
+
+            <input type="checkbox" name="banana">
+            <label for="puro">Com Banana</label>
+
+            <input type="checkbox" name="morango">
+            <label for="puro">Com Morango</label>
+
+            <input type="checkbox" name="granola">
+            <label for="puro">Com Granola</label>
+
+            <input type="checkbox" name="terra">
+            <label for="puro">Tem Gosto de Terra</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Qual é o Tamanho Preferido</legend>
+            <input name="500" type="radio">
+            <label for="500">500ML</label>
+
+            <input name="300" type="radio">
+            <label for="300">300ML</label>
+
+            <input name="100" type="radio">
+            <label for="100">100ML</label>
+
+            <input name="casca" type="radio">
+            <label for="casca">Casquinha</label>
+
+            <input name="qual" type="radio">
+            <label for="qual">Qual Parte do Gosto de Terra Voce Não Entendeu</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <p>Observações:</p>
+            <textarea id="text" rows="8" cols="180" placeholder="Escreva suas observações...Eu gosto do açaí..."></textarea>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar" class="but">
+        <input type="submit" value="Limpar" class="but">
+    </form>
+
+
+</body>
+
+</html>
